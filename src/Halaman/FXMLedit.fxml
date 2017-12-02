@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" minHeight="315.0" minWidth="450.0" prefHeight="319.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Halaman.FXMLeditController">
+   <children>
+      <ImageView fitHeight="370.0" fitWidth="507.0" layoutX="-1.0" layoutY="-13.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../gambar/newjdr.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="174.0" layoutY="14.0" text="Edit Barang">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="46.0" layoutY="72.0" text="ID">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="46.0" layoutY="122.0" text="Nama_Barang">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="46.0" layoutY="172.0" text="Stock">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="46.0" layoutY="222.0" text="Harga">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="Id" layoutX="226.0" layoutY="72.0" text="Label">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="nm" focusColor="WHITE" layoutX="226.0" layoutY="122.0" unFocusColor="WHITE">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="st" focusColor="WHITE" layoutX="226.0" layoutY="172.0" maxWidth="172.0" minWidth="159.0" prefHeight="36.0" prefWidth="172.0" unFocusColor="WHITE">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="hgr" focusColor="WHITE" layoutX="226.0" layoutY="222.0" maxWidth="165.0" minWidth="159.0" prefHeight="36.0" prefWidth="165.0" unFocusColor="WHITE">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font></JFXTextField>
+      <JFXButton buttonType="RAISED" layoutX="341.0" layoutY="288.0" onAction="#Update" ripplerFill="WHITE" style="-fx-background-color: black;" text="Update" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="12.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="480.0" prefWidth="833.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tokosepatu.FXMLSignupController">
+   <children>
+      <ImageView fitHeight="552.0" fitWidth="922.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../gambar/bckdft1r.jpg" />
+         </image>
+      </ImageView>
+      <JFXTextField fx:id="Username" focusColor="#2852d0" layoutX="73.0" layoutY="101.0" promptText="Username" />
+      <Label layoutX="81.0" layoutY="43.0" text="SIGN UP" textFill="#bfbcbc">
+         <font>
+            <Font name="GeoSlab703 Md BT Bold" size="33.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="SignUp" buttonType="RAISED" layoutX="99.0" layoutY="384.0" onAction="#Signup" prefHeight="31.0" prefWidth="92.0" style="-fx-background-color: #2852d0;" text="Sign up">
+         <font>
+            <Font name="Kristen ITC" size="17.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="31.0" fitWidth="33.0" layoutX="26.0" layoutY="101.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../gambar/user-avatar-main-picture.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="31.0" fitWidth="33.0" layoutX="26.0" layoutY="154.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../gambar/vintage-key-outline.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="31.0" fitWidth="33.0" layoutX="26.0" layoutY="206.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../gambar/location-pin.png" />
+         </image>
+      </ImageView>
+      <JFXTextArea fx:id="Address" focusColor="#2852d0" layoutX="70.0" layoutY="206.0" maxWidth="280.0" minWidth="171.0" prefHeight="138.0" prefWidth="171.0" promptText="Address" style="-fx-background-color: #E6E6E6;" />
+      <ImageView fitHeight="73.0" fitWidth="71.0" layoutX="110.0" layoutY="465.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../gambar/Logo.png" />
+         </image>
+      </ImageView>
+      <JFXPasswordField fx:id="Password" focusColor="#2852d0" layoutX="75.0" layoutY="154.0" promptText="Password" />
+      <JFXButton layoutX="117.0" layoutY="472.0" onAction="#home" opacity="0.3" prefHeight="25.0" prefWidth="64.0" text="a" />
+   </children>
+</AnchorPane>

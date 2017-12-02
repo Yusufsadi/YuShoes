@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" maxWidth="680.0" minHeight="457.0" minWidth="680.0" prefHeight="457.0" prefWidth="680.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Report.ReportController">
+   <children>
+      <ImageView fitHeight="470.0" fitWidth="892.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../gambar/newbck.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="252.0" layoutY="14.0" prefHeight="31.0" prefWidth="177.0" text="Details Transaksi" textFill="#686868">
+         <font>
+            <Font name="Century Gothic Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="45.0" layoutY="75.0" prefWidth="95.0" text="Pembeli" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="45.0" layoutY="115.0" prefWidth="95.0" text="Id Pembeli" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="45.0" layoutY="155.0" prefWidth="95.0" text="Alamat" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="45.0" layoutY="235.0" prefWidth="95.0" text="Size" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="45.0" layoutY="275.0" prefWidth="95.0" text="Jumlah" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="45.0" layoutY="324.0" prefWidth="95.0" text="Total" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="username" layoutX="172.0" layoutY="73.0" prefWidth="95.0" text="Pembeli" textFill="WHITE">
+         <font>
+            <Font name="Gloucester MT Extra Condensed" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="id_pembeli" layoutX="172.0" layoutY="113.0" prefWidth="95.0" text="Id Pembeli" textFill="WHITE">
+         <font>
+            <Font name="Gloucester MT Extra Condensed" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="almt" layoutX="172.0" layoutY="153.0" prefWidth="95.0" text="Alamat" textFill="WHITE">
+         <font>
+            <Font name="Gloucester MT Extra Condensed" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="size" layoutX="172.0" layoutY="233.0" prefWidth="95.0" text="Size" textFill="WHITE">
+         <font>
+            <Font name="Gloucester MT Extra Condensed" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="jml" layoutX="172.0" layoutY="273.0" prefWidth="95.0" text="Jumlah" textFill="WHITE">
+         <font>
+            <Font name="Gloucester MT Extra Condensed" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="ttl" layoutX="172.0" layoutY="324.0" prefWidth="95.0" text="Total" textFill="WHITE">
+         <font>
+            <Font name="Gloucester MT Extra Condensed" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="535.0" layoutY="393.0" prefWidth="95.0" text="Hormat Kami">
+         <font>
+            <Font name="LibertatusDuas" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="553.0" layoutY="418.0" prefHeight="22.0" prefWidth="58.0" text="Admin">
+         <font>
+            <Font name="Bethanie Snake_PersonalUseOnly" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="418.0" layoutY="91.0" prefHeight="17.0" prefWidth="247.0" text="Silahkan Transfer ke bank BCA rec " textFill="#686868">
+         <font>
+            <Font name="Cooper Black" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="nmrrec" layoutX="418.0" layoutY="119.0" prefHeight="17.0" prefWidth="117.0" text="130-00-0010947-3" textFill="#686868">
+         <font>
+            <Font name="Cooper Black" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="534.0" layoutY="119.0" prefHeight="17.0" prefWidth="30.0" text="A/n" textFill="#686868">
+         <font>
+            <Font name="Cooper Black" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="nama" layoutX="565.0" layoutY="119.0" prefHeight="17.0" prefWidth="109.0" text="Nama" textFill="#686868">
+         <font>
+            <Font name="Cooper Black" size="13.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="52.0" fitWidth="79.0" layoutX="14.0" layoutY="396.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../gambar/Logo1.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="45.0" layoutY="195.0" prefWidth="95.0" text="Id Barang" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="idbrg" layoutX="172.0" layoutY="193.0" prefWidth="95.0" text="Id Barang" textFill="WHITE">
+         <font>
+            <Font name="Gloucester MT Extra Condensed" size="21.0" />
+         </font>
+      </Label>
+      <JFXButton buttonType="RAISED" layoutX="267.0" layoutY="401.0" onAction="#back" prefHeight="35.0" prefWidth="109.0" ripplerFill="BLACK" style="-fx-background-color: #d1c90e;" text="Back">
+         <font>
+            <Font name="Humanst521 BT Bold Italic" size="18.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="19.0" layoutY="401.0" onAction="#home" opacity="0.13" prefHeight="35.0" prefWidth="69.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="402.0" prefWidth="727.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Halaman.FXMLAdminDataAdminController">
+   <children>
+      <ImageView fitHeight="420.0" fitWidth="736.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../gambar/yeezy-boost-v2-black-wallpaper-hd.jpg" />
+         </image>
+      </ImageView>
+      <TableView fx:id="tabel" layoutY="58.0" opacity="0.85" prefHeight="261.0" prefWidth="736.0">
+        <columns>
+          <TableColumn fx:id="columID" prefWidth="50.0" text="ID" />
+          <TableColumn fx:id="columUsername" prefWidth="167.0" text="Username" />
+            <TableColumn fx:id="columPassword" prefWidth="178.0" text="Password" />
+            <TableColumn fx:id="columAlamat" minWidth="8.0" prefWidth="339.0" text="Alamat" />
+        </columns>
+      </TableView>
+      <Label layoutX="300.0" layoutY="19.0" prefHeight="27.0" prefWidth="123.0" text="Detail Admin" textFill="#dab4b4">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="btnLoad" buttonType="RAISED" layoutX="102.0" layoutY="338.0" onAction="#loadDataFromDatabase" ripplerFill="RED" style="-fx-background-color: #135160;" text="Load Data" textFill="WHITE">
+         <font>
+            <Font name="Book Antiqua Bold" size="13.0" />
+         </font></JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="537.0" layoutY="338.0" onAction="#backhome" prefHeight="27.0" prefWidth="80.0" ripplerFill="#1518da" style="-fx-background-color: #135160;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="Book Antiqua Bold" size="13.0" />
+         </font></JFXButton>
+      <JFXTextField fx:id="pencari" layoutX="244.0" layoutY="365.0" unFocusColor="RED" />
+      <JFXButton buttonType="RAISED" layoutX="399.0" layoutY="367.0" onAction="#cari" prefHeight="27.0" prefWidth="80.0" ripplerFill="RED" style="-fx-background-color: #135160;" text="Cari" textFill="WHITE">
+         <font>
+            <Font name="Book Antiqua" size="13.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

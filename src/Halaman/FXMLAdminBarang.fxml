@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" maxHeight="538.0" maxWidth="737.0" minHeight="481.0" minWidth="737.0" prefHeight="538.0" prefWidth="737.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Halaman.FXMLAdminBarangController">
+   <children>
+      <ImageView fitHeight="540.0" fitWidth="959.0" layoutX="-105.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../gambar/yeezy-boost-v2-black-wallpaper-hd.jpg" />
+         </image>
+      </ImageView>
+      <TableView fx:id="tabel" editable="true" layoutY="48.0" opacity="0.85" prefHeight="292.0" prefWidth="736.0">
+        <columns>
+          <TableColumn fx:id="columID" prefWidth="50.0" text="ID" />
+          <TableColumn fx:id="columNama_Barang" prefWidth="248.0" text="Nama_Barang" />
+            <TableColumn fx:id="columStock" prefWidth="104.0" text="Stock" />
+            <TableColumn fx:id="columHarga" minWidth="8.0" prefWidth="333.0" text="Harga" />
+        </columns>
+      </TableView>
+      <Label layoutX="299.0" layoutY="14.0" prefHeight="27.0" prefWidth="138.0" text="Detail Barang" textFill="#dab4b4">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <JFXButton fx:id="btnLoad" buttonType="RAISED" layoutX="111.0" layoutY="365.0" onAction="#loadDataFromDatabase" ripplerFill="RED" style="-fx-background-color: #135160;" text="Load Data" textFill="WHITE">
+         <font>
+            <Font name="Book Antiqua Bold" size="13.0" />
+         </font></JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="584.0" layoutY="365.0" onAction="#backhome" prefHeight="27.0" prefWidth="80.0" ripplerFill="RED" style="-fx-background-color: #135160;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="Book Antiqua" size="13.0" />
+         </font></JFXButton>
+      <JFXTextField fx:id="pencari" labelFloat="true" layoutX="434.0" layoutY="459.0" promptText="Nama Barang" unFocusColor="RED" />
+      <JFXButton buttonType="RAISED" layoutX="589.0" layoutY="461.0" onAction="#cari" prefHeight="27.0" prefWidth="80.0" ripplerFill="RED" style="-fx-background-color: #135160;" text="Cari" textFill="WHITE">
+         <font>
+            <Font name="Book Antiqua" size="13.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="29.0" layoutY="473.0" onAction="#update" prefHeight="27.0" prefWidth="80.0" ripplerFill="RED" style="-fx-background-color: #135160;" text="Update" textFill="WHITE">
+         <font>
+            <Font name="Book Antiqua" size="13.0" />
+         </font>
+      </JFXButton>
+      <JFXTextField fx:id="Aidi" labelFloat="true" layoutX="43.0" layoutY="424.0" promptText="Id Barang" unFocusColor="RED" />
+      <JFXButton buttonType="RAISED" layoutX="154.0" layoutY="473.0" onAction="#Delete" prefHeight="27.0" prefWidth="80.0" ripplerFill="RED" style="-fx-background-color: #135160;" text="Delete" textFill="WHITE">
+         <font>
+            <Font name="Book Antiqua" size="13.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>
