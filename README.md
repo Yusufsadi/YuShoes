@@ -12,7 +12,7 @@
 # Admin
 ![alt](https://github.com/Yusufsadi/YuShoes/blob/master/8.JPG)
 ![alt](https://github.com/Yusufsadi/YuShoes/blob/master/loadbrg.JPG)
-![alt](https://github.com/Yusufsadi/YuShoes/blob/master/upbrg.JPG)
+![alt](https://github.com/Yusufsadi/YuShoes/blob/master/updbrg.JPG)
 ![alt](https://github.com/Yusufsadi/YuShoes/blob/master/srcbrg.JPG)
 ![alt](https://github.com/Yusufsadi/YuShoes/blob/master/loadtrs.JPG)
 ![alt](https://github.com/Yusufsadi/YuShoes/blob/master/srctrs.JPG)
